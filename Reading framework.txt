@@ -1,0 +1,13 @@
+#pickle
+
+list_pickle_path = 'list_pickle.pkl'
+list_unpickle = open(list_pickle_path, 'r')
+
+#tensorflow
+
+graph_def = graph_pb2.GraphDef()
+with open(FLAGS.graph, "rb") as f:
+
+#caffe
+
+net = importCaffeNetwork(protofile,datafile)
